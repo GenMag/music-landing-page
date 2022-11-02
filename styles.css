@@ -106,3 +106,52 @@ span {
     font-style: italic;
 }
 
+/*********MAIN**********/
+
+/*TOP 12 SECTION*/
+
+.top-12 {
+    background-image: url(./img/top12-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem 1.5rem 2rem;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    color: hsla(90, 50%, 50%, 1);
+    background-color: rgba(255, 0, 0, 1);
+    width: fit-content;
+    padding: 0 2.5rem 0 7.5rem;
+    margin-left: -1.5rem;
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+
+.top12-tiles-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    justify-items: center;
+}
+
+.image-tile {
+    width: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.song-title, .artist {
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    font-weight: 600;
+    text-shadow: 5px 5px 10px #fff;
+}
+
+.song-title span, .artist span {
+    margin-right: 1rem;
+    font-weight: 400;
+    text-shadow: none;
+}
+
