@@ -39,6 +39,7 @@ body {
 
 .logo {
     font-size: 3.5rem;
+    animation: moving-logo 4s infinite;
 }
 
 .nav-bar {
@@ -304,5 +305,12 @@ span {
         text-shadow: 0 0 10px whitesmoke;
         color: cornflowerblue;
     }
+
+/********ANIMATION*********/
+
+@keyframes moving-logo {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
 
     
