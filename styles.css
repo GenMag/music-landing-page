@@ -257,6 +257,7 @@ span {
 
     .nav-link {
         font-size: 2rem;
+        padding: 1rem;
     }
 
     img {
@@ -291,3 +292,17 @@ span {
         padding-right: 6rem;
         }
     }
+
+    /**********HOVER STYLES**********/
+
+    .search-wrapper:hover, .search-wrapper:focus, img:hover, img:focus{
+        box-shadow: 0 0 10px whitesmoke;
+        cursor: pointer;
+    }
+
+    .nav-link:hover, .nav-link:focus {
+        text-shadow: 0 0 10px whitesmoke;
+        color: cornflowerblue;
+    }
+
+    
