@@ -223,3 +223,52 @@ span {
 .copyright-wrapper .copyright-text {
     order: 1;
 }
+
+/********MEDIA QUERY********/
+
+@media (min-width: 700px) {
+    .header-upper {
+        flex-direction: row;
+        justify-content: space-evenly;
+        }
+
+    .search-wrapper {
+        max-width: 500px;
+        }
+
+    .nav-bar {
+        order: 3;
+        }
+
+    img {
+        height: 200px;
+        }
+    .top12-tiles-wrapper, .trending-tiles-wrapper {
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+        column-gap: 2rem;
+        }
+    .trivia-body {
+        font-size: 5rem;
+        width: 60%;
+        margin: 0 auto;
+        color: red;
+        font-weight: 700;
+        text-indent: 10rem;
+        }
+
+    .music-trivia {
+        height: auto;
+        padding-bottom: 6rem;
+        }
+    .footer-nav {
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+        }
+    .copyright-wrapper {
+        flex-direction: row;
+        gap: 1rem;
+        padding-right: 6rem;
+        }
+    }
