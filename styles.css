@@ -176,5 +176,21 @@ span {
 .trending-today {
     padding: 2.5rem 1.5rem 1.5rem;
     background: hsla(20, 80%, 85%, 1);
-    pad
+}
+
+/*MUSIC TRIVIA SECTION*/
+
+.music-trivia {
+    padding: 3rem 1.5rem 2rem;
+    background: linear-gradient(gray,beige);
+    height: 50vh;
+}
+
+.trivia-body {
+    color: #222;
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding: 0 2rem;
+    text-indent: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
