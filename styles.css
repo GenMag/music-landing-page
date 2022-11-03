@@ -174,7 +174,7 @@ span {
 /*TRENDING TODAY SECTION*/
 
 .trending-today {
-    padding: 2.5rem 1.5rem 0;
+    padding: 2.5rem 1.5rem 1.5rem;
     background: hsla(20, 80%, 85%, 1);
     pad
 }
