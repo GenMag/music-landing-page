@@ -194,3 +194,32 @@ span {
     text-indent: 2rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1.5rem 2rem;
+}
+
+.footer-nav-item {
+    padding: 0.3rem 0;
+    list-style: none;
+}
+
+.footer-nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.copyright-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copyright-wrapper .copyright-text {
+    order: 1;
+}
