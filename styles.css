@@ -229,16 +229,35 @@ span {
 @media (min-width: 700px) {
     .header-upper {
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        padding-left: 4rem;
+        padding-right: 4rem;
         }
+
+    .header-upper .logo {
+        font-size: 7rem;
+    }
 
     .search-wrapper {
         max-width: 500px;
+        margin-right: 30rem;
+        height: 4rem;
         }
 
     .nav-bar {
         order: 3;
+        margin: 0;
+        
         }
+
+    .nav-list {
+        display: flex;
+        gap: 3.5rem;
+        }
+
+    .nav-link {
+        font-size: 2rem;
+    }
 
     img {
         height: 200px;
