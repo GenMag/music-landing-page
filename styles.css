@@ -274,6 +274,10 @@ span {
         grid-template-columns: repeat(3, minmax(200px, 1fr));
         column-gap: 2rem;
         }
+
+    .socmed {
+        top: 50%;
+    }
     .trivia-body {
         font-size: 5rem;
         width: 60%;
