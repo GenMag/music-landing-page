@@ -228,6 +228,12 @@ span {
 /********MEDIA QUERY********/
 
 @media (min-width: 700px) {
+
+    .header {
+        position: sticky;
+        top: 0;
+    }
+
     .header-upper {
         flex-direction: row;
         justify-content: space-between;
